@@ -18,7 +18,11 @@ namespace CalDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (textBox1.Text != "")
+            {
+                int a = int.Parse(textBox1.Text);
+                int b = int.Parse(textBox2.Text);
+            }
         }
     }
 }
